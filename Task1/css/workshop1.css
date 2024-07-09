@@ -23,7 +23,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem  ;
+  padding: 0.5rem 4rem  ;
   background-color: #50B498;
 
 }
@@ -31,7 +31,7 @@ header{
 .contain{
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 3rem;
   display: flex;
   flex-direction: column;
   gap: 10px;
