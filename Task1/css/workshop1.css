@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+        font-family: "Mochiy Pop One", sans-serif;
+        font-weight: 400;
+       
+      
+      
+}
+body{
+  background-color: #081B29;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease ;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem  ;
+  background-color: #50B498;
+
+}
+
+.contain{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logo{
+  font-size: 2rem;
+}
+.logo::first-letter{
+  color: lightgreen;
+  font-size: 2.2rem;
+ 
+}
+.link{
+ display: flex;
+ gap: 1rem;
+ font-weight: 500px;
+ text-transform: uppercase;
+ 
+ 
+}
+.link a:hover {
+  color: lightcyan;
+}
+
+h2{
+
+  margin: 20px 0;
+  text-transform: uppercase;
+  color: white;
+}
+
+
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 1rem;
+    background: #fff;
+    transition: all 0.5s ease ;
+    cursor: pointer;
+    
+
+}
+
+
+
+.card:hover {
+    background-color: #50B498;
+    color: lightcyan;
+    translate: -2rem -10px ;
+    
+}
