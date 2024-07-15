@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <img src="#" alt="logo" srcset="#" >
+        <h1>Wellness Center Membership Registration Form</h1>
+    </header>
+
+    <form action="" id="form" class="form">
+        <div class="FG">
+                <label for="Fn">FullName</label>
+                <div class="name">    
+                <input type="text" id="Fn" name="Fn"  >
+                <input type="text" id="Ln" name="Ln"  >
+            </div>
+        </div>
+        
+        <div class="FG">
+            <label for="bd">BirthDate</label>
+            <input type="date" name="BirthDate" id="bd">
+        </div>
+
+        <div class="FG">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="FG">
+            <label for="ins">Insurance</label>
+            <input type="text" name="ins" id="ins">
+        </div>
+        <div class="FG" id="d">
+            Terms OF Services <span>*</span>
+        </div>
+        <div class="FG" id="agreet">
+            <input type="checkbox" name="agree" id="agree">
+            <label for="agree">I agree to the <a href="#">terms of service</a> </label>
+        </div>
+        
+        <div class="FG" id="d">
+            Verfication <span>*</span>
+            <div class="FG" id="ver" for="veri">
+                <input type="checkbox" name="ver" id="veri">
+                <label for="veri">Im not robot</label>
+                <img src="#" alt="logo">
+            </div> 
+        </div>
+        <div class="FG">
+            <button class="submit">SUBMIT FORM</button>
+        </div>
+    </form>
+    
+    </div>
+    <script src="Jquery.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

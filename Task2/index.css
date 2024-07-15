@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+        font-family: "Mochiy Pop One", sans-serif;    
+}
+body{
+    background-color: #081B29;
+}
+
+
+a{
+    color: #5da43e;
+    text-decoration: none;    
+}
+.container{
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 16px;
+
+}
+
+header{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    text-align: center;
+}
+.form {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+}
+.form .FG{
+    grid-template-columns: 1fr;
+}
+.name{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+}
+input[type="text"],input[type="email"],input[type="date"] ,button
+    {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #6ecb49;
+    border-radius: 8px;
+    }
+    input[type="text"]:focus,input[type="email"]:focus,input[type="date"]:focus
+    {
+        outline-color:#0c3654;
+    }
+    span{
+        color: red;
+    }
+    input[type="checkbox"]{
+        margin-right: 10px;
+    }
+    #ver{
+        background-color: gainsboro;
+        width: 50%;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        gap: 10px;
+        border: 1px solid white;
+    }
+    button{
+        padding:20px;
+        border: none;
+        color: white;
+        background-color: #6cc24a;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3 ease ;
+    }
+    button:hover{
+        background-color: #081B29;
+    }
+    .error-message{
+        color: red;
+        font-size:xx-small;
+    }
