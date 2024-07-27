@@ -1,0 +1,90 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;  
+}
+body{
+  background-color: #081B29;
+}
+
+.calculator {
+  background-color: black;
+  margin: 200px auto;
+  width:500px ;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  border-radius: 16px;
+}
+
+.display {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: right;
+  padding: 20px;
+}
+
+.history {
+  font-size: 2.4em;
+  color: #888;
+}
+
+.input {
+  width: 100%;
+  font-size: 4em;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  text-align: right;
+  border: none;
+  outline: none;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 10px;
+  width: 100%;
+  
+}
+
+.btn {
+  font-size: 2.5em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+.num{
+  background-color: dimgray;
+  color: white;
+}
+
+.operation {
+  background-color: orange;
+  color: white;
+}
+.top{
+  background-color:#A1A1A1;
+  color: black;
+
+}
+
+.AC {
+  grid-column-start: 3 ;
+  grid-column-end: 5 ;
+  grid-row: 1;
+}
+
+.Zero {
+  grid-column-start: 1 ;
+  grid-column-end: 3 ;
+  grid-row: 5;
+}
